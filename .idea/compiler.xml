@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="NacosConfig" />
+        <module name="NacosProvider" />
+        <module name="NacosProviderTwo" />
+        <module name="NacosConsumer" />
+        <module name="NacosNeo4jDao" />
+        <module name="NacosSSO" />
+        <module name="GateWay" />
+        <module name="Commons" />
+        <module name="NacosMysqlDao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Commons" target="1.8" />
+      <module name="GateWay" target="1.8" />
+      <module name="NacosConfig" target="1.8" />
+      <module name="NacosConsumer" target="1.8" />
+      <module name="NacosMysqlDao" target="1.8" />
+      <module name="NacosNeo4jDao" target="1.8" />
+      <module name="NacosProvider" target="1.8" />
+      <module name="NacosProviderTwo" target="1.8" />
+      <module name="NacosSSO" target="1.8" />
+      <module name="NacosWeb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Commons" options="-parameters" />
+      <module name="GateWay" options="-parameters" />
+      <module name="NacosConfig" options="-parameters" />
+      <module name="NacosConsumer" options="-parameters" />
+      <module name="NacosMysqlDao" options="-parameters" />
+      <module name="NacosNeo4jDao" options="-parameters" />
+      <module name="NacosProvider" options="-parameters" />
+      <module name="NacosProviderTwo" options="-parameters" />
+      <module name="NacosSSO" options="-parameters" />
+    </option>
+  </component>
+</project>
