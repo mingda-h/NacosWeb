@@ -1,6 +1,6 @@
 package com.md.dao.mybatis.sso.mapper;
 
-import com.md.dao.mybatis.sso.entity.User;
+import com.md.dao.mybatis.sso.entity.AuthorCheck;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author md
- * @since 2021-10-30
+ * @since 2021-11-02
  */
-public interface UserMapper extends BaseMapper<User> {
+public interface AuthorCheckMapper extends BaseMapper<AuthorCheck> {
 
 }
