@@ -14,7 +14,7 @@ public class FlowRuleInitFunc implements InitFunc {
     public void init(){
         List<FlowRule> rules = new ArrayList<>();
         FlowRule flowRule = new FlowRule();
-        flowRule.setCount(1);
+        flowRule.setCount(2);
         flowRule.setResource("hello");
         flowRule.setGrade(RuleConstant.FLOW_GRADE_QPS);//降级模式，根据 RT 降级还是根据异常比例降级
         flowRule.setLimitApp("default");

@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a60252fa-0eb2-45ee-a933-0bd29d3edda8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/config/SwaggerConfigNacosMysqlDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NacosNeo4jDao/src/main/java/com/md/neo4jdao/NacosNeo4jDaoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NacosNeo4jDao/src/main/java/com/md/neo4jdao/config/SwaggerConfigNacosNeo4jDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NacosProvider/src/main/java/com/md/provider/controller/config/SwaggerConfigNacosProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commons/src/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Commons/src/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosConfig/src/main/java/com/md/nacoconfig/config/SwaggerConfigNacosConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosConfig/src/main/java/com/md/nacoconfig/config/SwaggerConfigNacosConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/NacosMySqlDaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/NacosMySqlDaoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/controller/AuthorCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/controller/AuthorCheckController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/entity/AuthorCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/entity/AuthorCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/entity/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/mapper/AuthorCheckMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/mapper/AuthorCheckMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/mapper/UserInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/mapper/xml/AuthorCheckMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/mapper/xml/AuthorCheckMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/mapper/xml/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/mapper/xml/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/service/IAuthorCheckService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/service/IAuthorCheckService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/service/IUserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/service/IUserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/service/impl/AuthorCheckServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/service/impl/AuthorCheckServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/sso/service/impl/UserInfoInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/sso/service/impl/UserInfoInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/dao/mybatis/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosMysqlDao/src/main/java/com/md/msyqldao/mybatis/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NacosConsumer/src/main/java/com/md/consumer/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosConsumer/src/main/java/com/md/consumer/config/SwaggerConfigNacosConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NacosConsumer/src/main/java/com/md/consumer/config/ruleconfig/FlowRuleInitFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/NacosConsumer/src/main/java/com/md/consumer/config/ruleconfig/FlowRuleInitFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NacosConsumer/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/NacosConsumer/target/classes/application-dev.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConfigApplication">
+  <component name="RunManager" selected="Spring Boot.NacosConsumerApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="util.CodeGenerator" />
       <module name="NacosMysqlDao" />
@@ -249,7 +232,7 @@
       <workItem from="1635678065633" duration="16807000" />
       <workItem from="1636101541339" duration="69000" />
       <workItem from="1637917806821" duration="32920000" />
-      <workItem from="1638258065393" duration="3188000" />
+      <workItem from="1638258065393" duration="3911000" />
     </task>
     <task id="LOCAL-00001" summary="修改配置管理">
       <created>1638028557855</created>
@@ -272,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638265124949</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改swaggerconfig">
+      <created>1638275133704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638275133704</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
