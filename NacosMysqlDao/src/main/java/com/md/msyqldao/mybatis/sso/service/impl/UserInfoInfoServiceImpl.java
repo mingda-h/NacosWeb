@@ -1,9 +1,9 @@
-package com.md.dao.mybatis.sso.service.impl;
+package com.md.msyqldao.mybatis.sso.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.md.dao.mybatis.sso.entity.UserInfo;
-import com.md.dao.mybatis.sso.mapper.UserInfoMapper;
-import com.md.dao.mybatis.sso.service.IUserInfoService;
+import com.md.msyqldao.mybatis.sso.entity.UserInfo;
+import com.md.msyqldao.mybatis.sso.mapper.UserInfoMapper;
+import com.md.msyqldao.mybatis.sso.service.IUserInfoService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,7 +1,7 @@
-package com.md.dao.mybatis.sso.mapper;
+package com.md.msyqldao.mybatis.sso.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.md.dao.mybatis.sso.entity.UserInfo;
+import com.md.msyqldao.mybatis.sso.entity.UserInfo;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

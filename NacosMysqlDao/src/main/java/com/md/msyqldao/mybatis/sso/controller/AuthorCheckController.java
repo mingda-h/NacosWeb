@@ -1,10 +1,8 @@
-package com.md.dao.mybatis.sso.controller;
+package com.md.msyqldao.mybatis.sso.controller;
 
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.RequestMapping;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
 
 /**

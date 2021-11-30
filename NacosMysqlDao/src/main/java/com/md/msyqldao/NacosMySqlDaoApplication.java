@@ -1,4 +1,4 @@
-package com.md.dao;
+package com.md.msyqldao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

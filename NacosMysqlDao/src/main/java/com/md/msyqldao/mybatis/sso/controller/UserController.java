@@ -1,9 +1,9 @@
-package com.md.dao.mybatis.sso.controller;
+package com.md.msyqldao.mybatis.sso.controller;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.md.dao.mybatis.sso.entity.UserInfo;
-import com.md.dao.mybatis.sso.mapper.UserInfoMapper;
+import com.md.msyqldao.mybatis.sso.entity.UserInfo;
+import com.md.msyqldao.mybatis.sso.mapper.UserInfoMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

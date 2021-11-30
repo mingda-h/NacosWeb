@@ -1,7 +1,7 @@
-package com.md.dao.mybatis.sso.service;
+package com.md.msyqldao.mybatis.sso.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.md.dao.mybatis.sso.entity.UserInfo;
+import com.md.msyqldao.mybatis.sso.entity.UserInfo;
 
 /**
  * <p>

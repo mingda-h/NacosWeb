@@ -1,8 +1,8 @@
-package com.md.dao.mybatis.sso.service.impl;
+package com.md.msyqldao.mybatis.sso.service.impl;
 
-import com.md.dao.mybatis.sso.entity.AuthorCheck;
-import com.md.dao.mybatis.sso.mapper.AuthorCheckMapper;
-import com.md.dao.mybatis.sso.service.IAuthorCheckService;
+import com.md.msyqldao.mybatis.sso.entity.AuthorCheck;
+import com.md.msyqldao.mybatis.sso.mapper.AuthorCheckMapper;
+import com.md.msyqldao.mybatis.sso.service.IAuthorCheckService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

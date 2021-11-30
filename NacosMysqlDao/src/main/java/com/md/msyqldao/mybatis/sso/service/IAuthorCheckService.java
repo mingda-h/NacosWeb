@@ -1,6 +1,6 @@
-package com.md.dao.mybatis.sso.service;
+package com.md.msyqldao.mybatis.sso.service;
 
-import com.md.dao.mybatis.sso.entity.AuthorCheck;
+import com.md.msyqldao.mybatis.sso.entity.AuthorCheck;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
