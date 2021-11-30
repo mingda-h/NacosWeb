@@ -12,10 +12,10 @@ import java.util.List;
 
 @RestController
 public class FindServer {
-    @NacosInjected
-    private NamingService namingService;
-    @GetMapping("/consumer/discovery")
-    public List<Instance> getAllInstances(@RequestParam String serviceName)throws NacosException {
-        return namingService.getAllInstances(serviceName);
-    }
+//    @NacosInjected
+//    private NamingService namingService;
+//    @GetMapping("/consumer/discovery")
+//    public List<Instance> getAllInstances(@RequestParam String serviceName)throws NacosException {
+//        return namingService.getAllInstances(serviceName);
+//    }
 }

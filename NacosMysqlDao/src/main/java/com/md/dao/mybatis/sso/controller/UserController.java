@@ -6,6 +6,8 @@ import com.md.dao.mybatis.sso.entity.UserInfo;
 import com.md.dao.mybatis.sso.mapper.UserInfoMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -33,5 +35,17 @@ public class UserController {
         List<UserInfo> userList = userInfoMapper.selectList(null);
         List<String> namelist = (List<String>) ((Object) userInfoMapper.selectObjs(queryWrapper));
         return namelist;
+    }
+    @PostMapping(value = "/mysql/sso/user/check", produces = {"application/json;charset=UTF-8"})
+    public boolean checkUserName(@RequestParam("username")String username,@RequestParam("password")String password) {
+        log.info("进入MysqlDAO,检测用户账号密码");
+        QueryWrapper<UserInfo> queryWrapper = new QueryWrapper<>();
+        queryWrapper.select("USER_NAME").eq("USER_NAME",username).eq("PASSWORD",password);
+        int count = userInfoMapper.selectCount(queryWrapper);
+        if(count==1){
+            return true;
+        }else {
+            return false;
+        }
     }
 }

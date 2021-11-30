@@ -1,9 +1,11 @@
 package com.md.dao.mybatis.sso.controller;
 
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>
@@ -13,8 +15,8 @@ import org.springframework.stereotype.Controller;
  * @author md
  * @since 2021-11-02
  */
-@Controller
-@RequestMapping("/sso/author-check")
+@Slf4j
+@RestController
 public class AuthorCheckController {
 
 }
