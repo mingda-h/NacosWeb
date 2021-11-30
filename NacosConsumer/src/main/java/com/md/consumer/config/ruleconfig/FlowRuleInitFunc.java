@@ -1,4 +1,4 @@
-package com.md.consumer.ruleConfig;
+package com.md.consumer.config.ruleconfig;
 
 import com.alibaba.csp.sentinel.init.InitFunc;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
