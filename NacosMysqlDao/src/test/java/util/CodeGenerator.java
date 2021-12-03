@@ -47,7 +47,8 @@ public class CodeGenerator {
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
-        String modulePath = scanner("项目名称");
+//        String modulePath = scanner("项目名称");
+        String modulePath = "NacosMysqlDao";
         gc.setOutputDir(projectPath + "\\" + modulePath + "\\src\\main\\java");
         gc.setAuthor("md");
         gc.setOpen(false);
@@ -65,7 +66,7 @@ public class CodeGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setModuleName(scanner("模块名"));
-        pc.setParent("com.md.dao.mybatis");
+        pc.setParent("com.md.mysqldao.mybatis");
         mpg.setPackageInfo(pc);
 
         // 自定义配置

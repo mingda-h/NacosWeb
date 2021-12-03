@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 // 微服务的调用
-@FeignClient("cloud-NacosMysqlDao")
+@FeignClient(value = "cloud-NacosMysqlDao",contextId = "cloud-NacosMysqlDao-sso")
 public interface UserInfo {
     @GetMapping("/mysql/sso/user/name")
     List<String> getAllUserName();
